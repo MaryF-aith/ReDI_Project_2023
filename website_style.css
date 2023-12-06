@@ -1,0 +1,151 @@
+
+
+body {
+  background-color: rgb(7, 7, 7);
+
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: #b40a079d;
+}
+
+h1 {
+    font-size: 32px;
+    
+}
+
+p {color: rgb(229, 220, 220);
+    
+}
+
+div[title="Pls"] {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+div[title="Hello"] {
+    color:rgb(229, 220, 220);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+div[title="Div1"] {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+div[title="Preparation"] {
+    color: rgb(229, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+div[title="Map"] {
+    color: rgb(229, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+div[title="house"] {
+    color: rgb(229, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+div[title="Instructions"] {
+    color: rgb(229, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(229, 220, 220);
+}
+
+ul {
+    list-style-type: circle;
+  }
+
+input[type="text"] {
+    color: rgb(229, 220, 220);
+    background-color:#b40a079d;
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.button1 {
+    padding: 5px 10px;
+    margin-left: 190px;
+    background-color:#b40a079d;
+    color: #ffffff;
+    border: none;
+}
+
+.button1 {
+    padding: 5px 10px;
+    background-color:#b40a079d;
+    color: #ffffff;
+    border: none;
+}
+
+a {
+    padding: 10px 10px;
+    margin-left: 350px;
+} 
+
+.image1 {
+    padding: 0px 0px;
+    margin-left: 50px;
+    color: antiquewhite;
+    box-shadow: 0 0 8px 2px;
+    display: none;
+}
+
+.image2 {
+    padding: 0px 0px;
+    margin: 0px;
+    color: antiquewhite;
+    box-shadow: 0 0 8px 2px;
+    opacity: 0.6;
+    transition: .5s ease;
+}
+
+.image3 {
+    padding: 0px 0px;
+    margin: 0px;
+    color: antiquewhite;
+    box-shadow: 0 0 8px 2px;
+    opacity: 0.6;
+    transition: .5s ease;
+}
+
+img:hover {
+    opacity: 1;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list_item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #cccccc;
+}
+
+div[title="music"] {
+    color: rgb(237, 220, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+  }
