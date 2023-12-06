@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My project ReDI school fall semester 2023</title>
+        <link rel="stylesheet" href="CSS style/website_style.css">
+        <body background="images/Zombiewalk.jpg"></body>
+    </head>
+   
+    <body>
+
+        <header>
+            <h1>Welcome To The Game</h1>
+        </header>
+        <div title="Pls">
+            <p>Please enter your name</p>
+        </div>
+
+        <div title="Hello">
+        <input id="firstName" type="text" onchange="myFunction()"><br>
+<br>
+        <div id="greeting"></div>
+        </div>
+
+        <div title="Div1">
+            <p> Nice to see you!</p>
+            <p> Before we proceed, here are some instructions on how to survive
+                ...eeehm...
+                I mean...
+                on how to play the game.</p>
+            </p>
+        </div>
+
+        <div title="Preparation">
+            <h2>Recommendations</h2>
+            <p>Preparation</p>
+            <ol type="a">
+               <li>Get yourself some drinks (if you're easily scared you better get the REAL stuff!)</li>
+               <li>Get yourself some snacks</li>
+               <li>Snuggle up somewhere you feel comfy</li>
+               <li>Get a pillow (or your partner) in case you need to hold on to something</li>
+               <li>Click the picture below and let's go!</li>
+            </ol>
+        </div>
+<br>
+        <div title="Map"> 
+            <h3><i>Here's a map to get you an overview</i></h3>
+            <br>
+            <img src="images/houseDownstairs.jpg" id="map" class="image1" width="250" height="290">
+        </div>
+        <br>
+        <button type="button" onclick="showMap()" id="showmap" class="button1">Show Map</button>
+<br>
+<br>
+        <div title="Instructions">
+            <h2>Instructions</h2>
+            <p>Well, here are some tips for your survival:</p>
+            <ulstyle="list-style-type:square">
+                <li>Choose wisely</li>
+                <li>Try to think smart, sometimes the unlikeliest methods are the best</li>
+                <li>Do not panic, there a two possible ways to get out of the situation</li>
+                <li>And finally: do not die!</li>
+            </ul>
+        </div>
+
+<br>
+<br>
+        <div class="container">
+        <a href="Domestic Zombisturbance.html"><img src="images/ScreamingZombie.jpg" class="image2" width="200" height="270"></a>
+        </div>
+<br>
+<br>
+     <div title="music">
+     <div id="content" class="music"></div>
+        <img src="images/playbutton.png" id="play" onclick="backgroundmusic()" width="50" height="50"></button>
+     </div>
+
+        <audio id="nightCourt" src="/music/night-court-creepy-background-music.mp3" type="audio/mpeg" loop="true" hidden="false" autostart="false"></audio>
+
+<!--<div title="music">
+    <audio controls src="/images/playbutton.png" alt="" id="play">
+        <source src="/music/night-court1-creepy-background-music.ogg" type="audio/ogg">
+        <source src="/music/night-court-creepy-background-music.mp3" type="audio/mpeg">
+    </audio>
+   </div>
+
+
+<div class="music">
+    <audio id="creepy" src="/music/night-court-creepy-background-music.mp3" loop=""></audio>
+    <button class="btn"></button>
+        <i class="fa fa-play-circle-o"></i>
+        <i class="fa fa-pause-circle-o"></i>
+</div>
+
+<audio controls>
+        <source src="/music/dark-haunts.mp3" type="audio/ogg">
+        <source src="/music/dark-haunts1.ogg" type="audio/mpeg">
+</audio>-->
+
+
+        <script src="./JS/script.js"></script>
+    </body>
+</html>
+    
